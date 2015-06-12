@@ -18,6 +18,8 @@ module.exports = function(grunt) {
         options: {
           // cleancss: true,
           sourceMap: true,
+          sourceMapRootpath: '../',
+          outputSourceFiles: true,
           sourceMapFilename: 'css/style.css.map',
           sourceMapURL: 'style.css.map',
         }
@@ -28,7 +30,8 @@ module.exports = function(grunt) {
 
     autoprefixer: {
       options: {
-        browsers: ['last 2 versions']
+        browsers: ['last 2 versions'],
+        map: 'prev'
       },
       style: {
         src: 'css/style.css'

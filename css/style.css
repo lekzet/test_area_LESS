@@ -1,24 +1,31 @@
 /* Nikolay Gromov. Author URI: http://nicothin.ru */
+
 *,
 *:before,
 *:after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
+
 html {
-  box-sizing: border-box;
-  font-size: 10px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	font-size: 10px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 body {
-  font-size: 1.3rem;
-  color: #000000;
+	font-size: 1.3rem;
+	color: #000000;
 }
+
 a {
-  color: red;
-  text-decoration: none;
+	color: red;
+	text-decoration: none;
 }
+
 a:hover,
 a:focus {
-  text-decoration: underline;
+	text-decoration: underline;
 }
+
 /*# sourceMappingURL=style.css.map */
+
